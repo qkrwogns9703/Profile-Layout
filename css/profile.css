@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	font-family: 'Commissioner', sans-serif;
+}
+/* header start*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: #2d323b;
+	padding: 8px 12px;
+}
+.header a {
+	text-decoration: none;
+	color: white;
+}
+.profile_logo {
+	font-size: 30px;
+	color: white;
+}
+.profile_menu {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+.profile_menu li {
+	padding: 8px 15px;
+	font-size: 20px;
+}
+.profile_menu li :hover {
+	background-color: #d49466;
+	border-radius: 4px;
+}
+.git {
+	font-size: 30px;
+	display: flex;
+	padding-left: 0;
+}
+.git :hover {
+	color: #d49466;
+}
+.side_btn {
+	display: none;
+	font-size: 24px;
+	position: absolute;
+	right: 32px;
+}
+/* header end*/
+
+/* content start */
+
+#content {
+	display: flex;
+	margin-top: 5px;
+}
+
+#contact {
+	background-color: #2d323b;
+}
+
+#contact span {
+	display: block;
+}
+
+#profile_img img {
+	margin-top: 20px;
+	width: 400px;
+	height: 600px;
+}
+
+#info {
+	list-style: none;
+}
+#info li {
+	margin-top: 8px;
+	font-size: 20px;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	/* header start*/
+	.header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.profile_menu {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.profile_menu li {
+		width: 100%;
+		text-align: center;
+	}
+	.git {
+		display: none;
+		justify-content: center;
+		width: 100%;
+	}
+	.side_btn {
+		display: block;
+	}
+	.profile_menu.active {
+		display: flex;
+	}
+	.git.active {
+		display: flex;
+	}
+	/* header end*/
+
+	/*content start*/
+
+	/*content end*/
+}
