@@ -52,7 +52,8 @@ body {
 
 #content {
 	display: flex;
-	margin-top: 5px;
+	margin-top: 3px;
+	height: 100vh;
 }
 
 #contact {
@@ -76,6 +77,12 @@ body {
 	margin-top: 8px;
 	font-size: 20px;
 	color: white;
+}
+
+#intro {
+	margin-left: 3px;
+	width: 100%;
+	background-color: #2d323b;
 }
 
 @media screen and (max-width: 768px) {
