@@ -119,5 +119,25 @@ body {
 
 	/*content start*/
 
+	#content {
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	#contact {
+		width: 100%;
+	}
+
+	#profile_img img {
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	#intro {
+		margin-top: 3px;
+		margin-left: 0;
+		width: 100%;
+		background-color: #2d323b;
+	}
 	/*content end*/
 }
