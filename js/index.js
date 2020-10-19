@@ -6,3 +6,7 @@ sideBtn.addEventListener('click', function () {
 	menu.classList.toggle('active');
 	git.classList.toggle('active');
 });
+
+const testFunction = function (arg) {
+	console.log('Arg is : ', arg);
+};
